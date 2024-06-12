@@ -1,0 +1,31 @@
+{
+    "name": "blog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start": "nodemon --inspect main.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/apvjsme/nodejs_blog.git"
+    },
+    "keywords": [
+        "nodejs",
+        "apv",
+        "blog"
+    ],
+    "author": "apvjsme",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/apvjsme/nodejs_blog/issues"
+    },
+    "homepage": "https://github.com/apvjsme/nodejs_blog#readme",
+    "dependencies": {
+        "express": "^4.19.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.3"
+    }
+}
